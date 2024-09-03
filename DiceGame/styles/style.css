@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: 400px;
+}
+
+.txtBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnAtual {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  border: none;
+  padding: 24px;
+  background-color: rgb(69, 69, 230);
+  color: aliceblue;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btnAtual:hover {
+  background-color: rgb(124, 124, 218);
+}
+
+p {
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+
+.dices {
+  display: flex;
+  gap: 300px;
+}
+footer {
+  margin-top: 100px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: 400px;
+}
